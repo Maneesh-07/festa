@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8807711658",
+    "project_id": "flutter-festa",
+    "storage_bucket": "flutter-festa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8807711658:android:529c2bd68646101f18a1d3",
+        "android_client_info": {
+          "package_name": "com.example.festa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkTaj3obS-pWWxcHUFN86-TtLWX7emu7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
