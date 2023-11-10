@@ -1,4 +1,4 @@
-// api_service.dart
+
 import 'dart:convert';
 import 'package:festa/model/person.dart';
 import 'package:http/http.dart' as http;
@@ -23,15 +23,14 @@ class ApiService {
     final response = await http.get(Uri.parse(apiUrl));
 
     if (response.statusCode == 200) {
-      // If the server returns an OK response, parse the JSON
+     
       final Map<String, dynamic> data = json.decode(response.body);
       final List<dynamic> results = data['results'];
 
       List<Person> persons = parsePersons(results);
       return persons;
     } else {
-      // If the server did not return a 200 OK response,
-      // throw an exception.
+    
       throw Exception('Failed to load persons');
     }
   }
